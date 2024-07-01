@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>setTimeout Demo</title>
+</head>
+<body>
+  <button id="myButton">Click me</button>
+
+  <script>
+    document.getElementById('myButton').addEventListener('click', function() {
+      console.log('Button clicked! Waiting for 3 seconds...');
+
+      // Set a timeout to execute after 3 seconds (3000 milliseconds)
+      setTimeout(function() {
+        console.log('3 seconds have passed!');
+        alert('3 seconds have passed!');
+      }, 3000);
+    });
+  </script>
+</body>
+</html>
