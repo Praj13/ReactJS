@@ -1,9 +1,9 @@
+import './index.css'
 function Header(){
     return(
         <>
         <header>
-    <h1>This is my react app.</h1>
-    <nav>
+    <nav className='navbar'>
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Contact</a></li>
