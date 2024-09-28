@@ -1,0 +1,30 @@
+.color-picker{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selected{
+  width: 30vh;
+  height: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: large;
+  border: 4px solid gray;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: 0.25 ease;
+}
+label{
+  margin: 10px;
+}
+input[type="color"]{
+width: 6vw;
+height: 5vh;
+}
+
+.inline{
+  display: inline-block;
+}
