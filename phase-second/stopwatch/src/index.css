@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+
+.stopwatch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.display{
+  font-size: 5rem;
+}
+
+.button{
+  margin: 20px;
+  font-size: large;
+  display: flex;
+  gap: 10px;
+  
+
+}
+
+.start,.stop,.reset:hover{
+  cursor: pointer;
+}
+
+.start{
+  background-color: green;
+  padding: 10px;
+  width: 100px;
+  color: white;
+  border-radius: 8px;
+}
+
+.stop{
+  background-color: red;
+  padding: 10px;
+  width: 100px;
+  color: white;
+  border-radius: 8px;
+}
+.reset{
+  background-color: rgb(23, 24, 23);
+  padding: 10px;
+  width: 100px;
+  color: white;
+  border-radius: 8px;
+}
+
+
+

@@ -1,0 +1,39 @@
+.topbtn {
+    display: flex;
+    margin-left: 300px;
+    gap: 20px;
+}
+
+.form_control{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 300px;
+    width: 280px;
+    position: relative;
+    gap: 10px;
+}
+.form_control input{
+    height: 40px;
+}
+.form_control label{
+    position: absolute;
+    top: -11px;
+    left: 14px;
+    background-color: white;
+}
+
+.submit{
+    font-size: large;
+}
+
+.container{
+    display: flex;
+}
+
+.contact_image img{
+    height: 65vh;
+    margin-left: 110px;
+}
+
+

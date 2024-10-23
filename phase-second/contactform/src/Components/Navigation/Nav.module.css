@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  }
+  .links ul{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .logo img{
+    width: 60px;
+   
+  }
+  
+  
+  ul li{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 20px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+  
+  }
